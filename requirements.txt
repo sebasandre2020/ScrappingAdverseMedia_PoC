@@ -1,0 +1,36 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-cosmos
+requests==2.26.0
+asyncio
+aiohttp
+beautifulsoup4
+lxml
+pandas
+requests-ip-rotator==1.0.14
+json5
+PyPDF2
+pdfplumber
+cloudscraper
+typing
+pydantic
+openpyxl
+xlrd
+unidecode
+ezodf
+fake_useragent
+PyMuPDF
+fuzzywuzzy
+python-Levenshtein
+requests_html
+lxml_html_clean
+wakepy
+webdriver_manager==4.0.0
+urllib3
+azure.storage.blob
+datetime
+azure-servicebus==7.12.0
+async-ip-rotator
